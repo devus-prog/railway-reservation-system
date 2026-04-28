@@ -12,7 +12,7 @@ booking_id_counter = 1
 
 
 def check_availability():
-    print("\nAvailable Seats:", len(seats))
+    print("\nAvailable Seats:", len(seats),"out off",TOTAL_SEATS)
 
 
 def book_ticket():
